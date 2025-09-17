@@ -1,0 +1,131 @@
+.section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2 {
+  color: #111;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.container p {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.05rem;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Info Section */
+.info {
+  text-align: left;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info h3 {
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+.info p {
+  margin: 12px 0;
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #e50914;
+}
+
+/* Form Card */
+.card {
+  background: #fff;
+  padding: 30px;
+  text-align: left;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 6px;
+  color: #111;
+  font-weight: 600;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #fffafa;
+  outline: none;
+}
+
+.formGroup textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.submitButton {
+  padding: 12px 20px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #c20811;
+}
+
+.status {
+  color: #28a745;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 600;
+}
