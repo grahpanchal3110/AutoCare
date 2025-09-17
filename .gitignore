@@ -27,6 +27,7 @@ dist-ssr
 # Edit at https://www.toptal.com/developers/gitignore?templates=react
 
 ### react ###
+### react ###
 .DS_*
 *.log
 logs
