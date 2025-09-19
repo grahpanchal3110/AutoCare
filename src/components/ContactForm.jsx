@@ -90,16 +90,16 @@ const ContactForm = () => {
           <div className={styles.info}>
             <h3>Get in Touch</h3>
             <p>
-              <FaMapMarkerAlt className={styles.icon} /> MiQB Executive
-              Coworking Space Plot 23, Sector 18 Maruti Industrial Development
-              Area, Gurugram, Haryana 122015
+              <FaMapMarkerAlt className={styles.icon} /> QutoCare workshop Near
+              Aaradhya Homes, New Chandkheda
+              <br />
+              Ahmedabad, Gujarat 382424
             </p>
             <p>
-              <FaEnvelope className={styles.icon} /> support@vehiclecare.in
+              <FaEnvelope className={styles.icon} /> qutocareworkshop@gmail.com
             </p>
             <p>
-              <FaPhoneAlt className={styles.icon} /> +91 99110 20209, +91 93553
-              02514
+              <FaPhoneAlt className={styles.icon} /> +91-7623927451
             </p>
           </div>
 

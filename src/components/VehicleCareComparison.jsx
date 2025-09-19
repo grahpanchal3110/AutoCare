@@ -65,7 +65,7 @@ const VehicleCareComparison = () => {
   return (
     <section id="vehicle-care-comparison" className={styles.section}>
       <div className={styles.container}>
-        <h2>VehicleCare Benefits Comparison</h2>
+        <h2>Qutocare Benefits Comparison</h2>
         <div className={styles.grid}>
           <table className={styles.table}>
             <thead>

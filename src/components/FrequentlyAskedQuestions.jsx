@@ -4,15 +4,15 @@ import styles from "../styles/FrequentlyAskedQuestions.module.css";
 const faqs = [
   {
     id: 1,
-    question: "How can I book my car service with VehicleCare in Gurgaon?",
+    question: "How can I book my car service with Qutocare in Gurgaon?",
     answer:
       "You can book your car service by visiting our website, selecting your preferred service, choosing a convenient time slot, and confirming your booking online.",
   },
   {
     id: 2,
-    question: "How many VehicleCare car services are there in Gurgaon?",
+    question: "How many Qutocare car services are there in Gurgaon?",
     answer:
-      "We currently have 5 VehicleCare service centers across Gurgaon to serve you better.",
+      "We currently have 5 Qutocare service centers across Gurgaon to serve you better.",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const faqs = [
     id: 8,
     question: "How many workshops are there in Gurgaon?",
     answer:
-      "There are 10 certified workshops in Gurgaon partnered with VehicleCare for your convenience.",
+      "There are 10 certified workshops in Gurgaon partnered with Qutocare for your convenience.",
   },
 ];
 

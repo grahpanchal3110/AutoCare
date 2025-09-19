@@ -35,7 +35,7 @@ const VehicleCareByNumbers = () => {
   return (
     <section id="vehicle-care-numbers" className={styles.section}>
       <div className={styles.container}>
-        <h2>VehicleCare By The Numbers</h2>
+        <h2>Qutocare By The Numbers</h2>
         <p>Real impact. Real results. Trusted by thousands across India.</p>
         <div className={styles.grid}>
           {stats.map((stat) => (

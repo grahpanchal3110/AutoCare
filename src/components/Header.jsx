@@ -26,11 +26,11 @@ const Header = () => {
         </ul>
         <div className={styles.cta}>
           <a
-            href="https://wa.me/911234567890"
+            href="https://wa.me/+917623927451"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>Call Now: +91-1234567890</button>
+            <button>Call Now: +91-7623927451</button>
           </a>
         </div>
       </nav>

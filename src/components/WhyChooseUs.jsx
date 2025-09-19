@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
     },
     {
       id: 2,
-      text: "VehicleCare offers quick appointment booking via our website or app. Enjoy hassle-free door pick-up and drop-off services for your convenience.",
+      text: "Qutocare offers quick appointment booking via our website or app. Enjoy hassle-free door pick-up and drop-off services for your convenience.",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.title}>
-          Why Choose VehicleCare for Your Car's{" "}
+          Why Choose Qutocare for Your Car's{" "}
           <span className={styles.highlight}>Dent & Paint</span> Needs?
         </h2>
 

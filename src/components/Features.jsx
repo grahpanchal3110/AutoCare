@@ -1,15 +1,16 @@
 // Features.js
 import React from "react";
 import styles from "../styles/Features.module.css";
+import { Link } from "react-router-dom";
 
 const Features = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2>Why VehicleCare is The Right Choice for You</h2>
+        <h2>Why Qutocare is The Right Choice for You</h2>
         <p className={styles.subtitle}>
-          Unreliable car repairs in Gurgaon? Try VehicleCare certified
-          mechanics, doorstep service, and real-time updates.
+          Unreliable car repairs in Gurgaon? Try Qutocare certified mechanics,
+          doorstep service, and real-time updates.
         </p>
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -35,7 +36,7 @@ const Features = () => {
             </p>
           </div>
           <div className={styles.card}>
-            <h3>How VehicleCare Adds Value</h3>
+            <h3>How Qutocare Adds Value</h3>
             <p>
               <span style={{ color: "black", fontWeight: "bold" }}>
                 Certified Mechanics in Gurgaon:
@@ -115,7 +116,10 @@ const Features = () => {
               </span>{" "}
               Custom car care packages tailored to you.
             </li>
-            <button className={styles.visitButton}>Visit Now</button>
+
+            <Link to="/service" className={styles.visitButton}>
+              Visit Now
+            </Link>
           </div>
           <div className={styles.card}>
             <h3>Book Your Car Service Now</h3>

@@ -148,9 +148,10 @@ import insurance_claim from "../assets/image/insurance_claim.svg";
 import dent_paint from "../assets/image/dent_paint.svg";
 import custom_repair from "../assets/image/custom_repair.svg";
 import comprehensive_service from "../assets/image/comprehensive-service.svg";
-import amc from "../assets/image/amc.png";
-import wire from "../assets/image/wire.svg";
-import warranty from "../assets/image/warranty.png";
+// import amc from "../assets/image/amc.png";
+// import wire from "../assets/image/wire.svg";
+// import warranty from "../assets/image/warranty.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const services = [
@@ -178,24 +179,24 @@ const Services = () => {
       desc: "Restore your car’s shine with expert dent and paint repair services.",
       icon: dent_paint,
     },
-    {
-      id: 5,
-      title: "EV Certified Service",
-      desc: "Certified EV service with diagnostics, battery checks, and updates.",
-      icon: wire,
-    },
-    {
-      id: 6,
-      title: "Warranty",
-      desc: "Manage vehicle warranty claims easily through trusted service centers.",
-      icon: warranty,
-    },
-    {
-      id: 7,
-      title: "AMC",
-      desc: "Annual maintenance plans for worry-free ownership all year long.",
-      icon: amc,
-    },
+    // {
+    //   id: 5,
+    //   title: "EV Certified Service",
+    //   desc: "Certified EV service with diagnostics, battery checks, and updates.",
+    //   icon: wire,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Warranty",
+    //   desc: "Manage vehicle warranty claims easily through trusted service centers.",
+    //   icon: warranty,
+    // },
+    // {
+    //   id: 7,
+    //   title: "AMC",
+    //   desc: "Annual maintenance plans for worry-free ownership all year long.",
+    //   icon: amc,
+    // },
   ];
 
   return (
@@ -217,9 +218,9 @@ const Services = () => {
               />
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
-              <a href="#know-more" className={styles.knowMore}>
+              <Link to="/" className={styles.knowMore}>
                 Know more →
-              </a>
+              </Link>
             </div>
           ))}
         </div>

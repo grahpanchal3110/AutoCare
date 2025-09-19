@@ -31,7 +31,7 @@ const reasons = [
 const WhyChoose = () => {
   return (
     <section className={styles.whyWrapper}>
-      <h2 className={styles.heading}>Why Choose VehicleCare</h2>
+      <h2 className={styles.heading}>Why Choose Qutocare</h2>
       <div className={styles.reasonsGrid}>
         {reasons.map((item) => (
           <div key={item.id} className={styles.card}>

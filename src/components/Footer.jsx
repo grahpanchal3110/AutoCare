@@ -90,6 +90,7 @@ import {
 } from "react-icons/fa";
 import googleplay from "../assets/image/google-play.png";
 import appstore from "../assets/image/appstore.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -100,52 +101,52 @@ const Footer = () => {
           <div className={styles.logo}>
             <img
               src={Autocare}
-              alt="AutoCare Logo"
+              alt="QutoCare Logo"
               style={{ width: "100px" }}
             />
-            <span>AutoCare</span>
+            <span>QutoCare</span>
           </div>
           <p className={styles.about}>
-            AutoCare offers car service, repair, insurance help, and business
+            QutoCare offers car service, repair, insurance help, and business
             support with smart technology and trusted workshops across India.
             Easy, reliable, and customer-friendly solutions.
           </p>
           <div className={styles.social}>
-            <a href="#">
+            <Link to="/">
               <FaLinkedin />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <FaFacebookF />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <FaTwitter />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <FaInstagram />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <FaYoutube />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <FaWhatsapp />
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Middle Section */}
         <div className={styles.middle}>
           <p>
-            MiQB Executive Coworking Space Plot 23, Sector 18 Maruti Industrial
-            Development Area, <br />
-            Gurugram, Haryana 122015
+            QutoCare workshop Near Aaradhya Homes, New Chandkheda
+            <br />
+            Ahmedabad, Gujarat 382424
           </p>
           <p>
-            <strong>Email:</strong>{" "}
-            <span className={styles.red}>support@AutoCare.in</span>
+            <strong>Email: </strong>
+            <span className={styles.red}>qutocareworkshop@gmail.com</span>
           </p>
           <p>
-            <strong>Phone:</strong>{" "}
-            <span className={styles.red}>+919911020209, +919355302514</span>
+            <strong>Phone:</strong>
+            <span className={styles.red}> +917623927451</span>
           </p>
         </div>
 
@@ -163,8 +164,8 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className={styles.bottom}>
         <p>
-          Copyright © 2016-2025 Houseneed Doorstep Services Private Limited. All
-          rights reserved.
+          Copyright ©2025 QutoCare Services Private Limited. All rights
+          reserved.
         </p>
       </div>
     </footer>
