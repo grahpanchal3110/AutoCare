@@ -97,3 +97,61 @@
   background-color: #059669;
   color: white;
 }
+/* Tablet & Mobile Responsive */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "card1 card2"
+      "cardDark cardDark"
+      "card3 card3";
+  }
+
+  .card:nth-child(4) {
+    width: 100%; /* force full width */
+  }
+
+  .cardDark {
+    height: auto; /* remove fixed height */
+  }
+}
+
+/* Mobile (small screens) */
+@media (max-width: 600px) {
+  .section {
+    padding: 30px 15px;
+  }
+
+  .container h2 {
+    font-size: 1.6em;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "cardDark"
+      "card3";
+    gap: 15px;
+  }
+
+  .card,
+  .cardDark {
+    width: 100%;
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  .visitButton {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+}
