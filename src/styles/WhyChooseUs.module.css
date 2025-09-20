@@ -1,6 +1,7 @@
 .section {
   padding: 4rem 1rem;
   background: #f9fafb;
+  max-width: 1200px;
 }
 
 .container {
