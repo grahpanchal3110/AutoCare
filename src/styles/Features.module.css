@@ -121,7 +121,12 @@
   .section {
     padding: 30px 15px;
   }
-
+  .container {
+    margin: 0 0px;
+    margin-left: 0px;
+    margin-right: 30px;
+    padding: 0;
+  }
   .container h2 {
     font-size: 1.6em;
   }
@@ -149,7 +154,7 @@
   }
 
   .visitButton {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     padding: 12px;
     font-size: 0.95rem;
